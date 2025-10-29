@@ -5,8 +5,6 @@ node_modules/
 
 # Expo
 .expo/
-.idea/
-.vscode/
 dist/
 web-build/
 expo-env.d.ts
@@ -41,6 +39,5 @@ yarn-error.*
 app-example
 
 /android
-/ios
 /old
 

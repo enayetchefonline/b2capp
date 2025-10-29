@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.chefonline.chefonline",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "52403dda-d789-46a4-aac3-69f92ac11b47"
+      },
+      "router": {}
+    },
+    "icon": "./assets/images/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow this app to access your location."
+      }
+    },
+    "name": "chefonline",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "owner": "khmuhib_chef",
+    "plugins": [
+      "./plugins/withCleartextTraffic",
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "scheme": "chefonline",
+    "slug": "chefonline",
+    "userInterfaceStyle": "automatic",
+    "version": "8.21",
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png",
+      "output": "static"
+    }
+  }
+}
